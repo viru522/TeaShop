@@ -15,7 +15,7 @@ export default function Home() {
   }, []);
 
   return (
-    <section className="h-[80vh] flex flex-col justify-center items-center bg-amber-50 text-center">
+    <section className="h-[90vh] bg-[url('/chai.webp')] bg-cover flex flex-col justify-center items-center bg-amber-50 text-center">
       <h1 ref={title} className="text-5xl font-bold text-amber-900 mb-4">
         Fresh Tea. Real Taste.
       </h1>
